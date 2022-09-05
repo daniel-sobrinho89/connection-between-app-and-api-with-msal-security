@@ -1,0 +1,7 @@
+.react-datepicker-wrapper>.react-datepicker__input-container input {
+    display: inline-block !important;
+}
+
+.inline {
+    display: inline-block !important;
+}
