@@ -1,18 +1,21 @@
-# Getting Started with Create React App
+# Libs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project uses some libraries to improve your experience.
 
-## Available Scripts
+## DatePicker
 
-In the project directory, you can run:
+Url: 
+    https://reactdatepicker.com/
+Commands:
+    npm install react-datepicker --save
+	npm i --save-dev @types/react-datepicker
 
-### `npm start`
+### Bootstrap
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Url: 
+    https://react-bootstrap.github.io/getting-started/introduction/
+Commands:
+	npm install react-bootstrap bootstrap
 
 ### `npm test`
 
