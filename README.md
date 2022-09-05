@@ -7,13 +7,13 @@ This project uses some libraries to improve your experience.
 Url: \
     https://reactdatepicker.com/ \
 Commands: \
-    npm install react-datepicker --save \
-	npm i --save-dev @types/react-datepicker 
+#^  npm install react-datepicker --save \
+#^	npm i --save-dev @types/react-datepicker 
 
 ### Bootstrap
 
 Url: \
-    https://react-bootstrap.github.io/getting-started/introduction/ \
+#^  https://react-bootstrap.github.io/getting-started/introduction/ \
 Commands: \
 	npm install react-bootstrap bootstrap
 

@@ -7,8 +7,7 @@ const config = {
 };
 
 export const apiRequest = {
-    // scopes: ["api://{YOUR-SCOPE-ID}/.default"]
-    scopes: ["api://5224beda-2672-474b-8556-94bb489bd5c6/.default"]
+    scopes: ["api://{YOUR-SCOPE-ID}/.default"]
 };
 
 export default config;
