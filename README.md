@@ -6,7 +6,7 @@ This project uses some libraries to improve your experience.
 
 #### Url: \
     https://reactdatepicker.com/ \
-#### Commands: \
+Commands: 
     npm install react-datepicker --save \
     npm i --save-dev @types/react-datepicker 
 
