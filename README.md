@@ -7,22 +7,22 @@ This project uses some libraries to improve your experience.
 Url: \
     https://reactdatepicker.com/ \
 Commands: \
-    npm install react-datepicker --save \
-    npm i --save-dev @types/react-datepicker 
+ -   npm install react-datepicker --save \
+ -   npm i --save-dev @types/react-datepicker 
 
 ### Bootstrap
 
 Url: \
-#^  https://react-bootstrap.github.io/getting-started/introduction/ \
+*   https://react-bootstrap.github.io/getting-started/introduction/ \
 Commands: \
-	npm install react-bootstrap bootstrap
+*   npm install react-bootstrap bootstrap
 
 ### DataGrid
 
 Url: \
-    https://mui.com/pt/x/react-data-grid/getting-started/ \
+**   https://mui.com/pt/x/react-data-grid/getting-started/ \
 Commands: \
-	npm install @mui/x-data-grid
+**	npm install @mui/x-data-grid
 
 ### `npm test`
 
