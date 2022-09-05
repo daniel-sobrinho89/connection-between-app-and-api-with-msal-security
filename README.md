@@ -1,21 +1,28 @@
-# Libs
+# Getting Started
 
 This project uses some libraries to improve your experience.
 
-## DatePicker
+### DatePicker
 
-Url: 
-    https://reactdatepicker.com/
-Commands:
-    npm install react-datepicker --save
-	npm i --save-dev @types/react-datepicker
+Url: \
+    https://reactdatepicker.com/ \
+Commands: \
+    npm install react-datepicker --save \
+	npm i --save-dev @types/react-datepicker 
 
 ### Bootstrap
 
-Url: 
-    https://react-bootstrap.github.io/getting-started/introduction/
-Commands:
+Url: \
+    https://react-bootstrap.github.io/getting-started/introduction/ \
+Commands: \
 	npm install react-bootstrap bootstrap
+
+### DataGrid
+
+Url: \
+    https://mui.com/pt/x/react-data-grid/getting-started/ \
+Commands: \
+	npm install @mui/x-data-grid
 
 ### `npm test`
 
