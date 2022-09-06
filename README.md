@@ -4,7 +4,7 @@ This project uses some libraries to improve your experience.
 
 ### DatePicker
 
-#### Url: \
+Url: \
     https://reactdatepicker.com/ \
 Commands: 
     npm install react-datepicker --save \
@@ -12,69 +12,49 @@ Commands:
 
 ### Bootstrap
 
-#### Url: \
+Url: \
     https://react-bootstrap.github.io/getting-started/introduction/ \
-#### Commands: \
+Commands: \
    npm install react-bootstrap bootstrap
 
 ### DataGrid
 
 Url: \
-**   https://mui.com/pt/x/react-data-grid/getting-started/ \
+   https://mui.com/pt/x/react-data-grid/getting-started/ \
 Commands: \
-**	npm install @mui/x-data-grid
+	npm install @mui/x-data-grid
 
-### `npm test`
+### Select
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Url: \
+   https://react-select.com/home#getting-started \
+Commands: \
+	npm i --save react-select
 
-### `npm run build`
+### Azure MSAL
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Url: \
+   https://docs.microsoft.com/pt-br/azure/active-directory/develop/tutorial-v2-react \
+Commands: \
+	npm install @azure/msal-browser @azure/msal-react # Install the MSAL packages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Configure bootstrap router
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Commands: \
+	npm install -S react-router-bootstrap
 
-### `npm run eject`
+### Configure typeScript
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Commands: \
+	npm install --save typescript @types/node @types/react @types/react-dom @types/jest \
+    npx tsc --init
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Additional Configurations and References
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Url: \
+   https://docs.microsoft.com/en-us/azure/active-directory-b2c/configure-authentication-in-sample-node-web-app-with-api \
+   https://docs.microsoft.com/en-us/azure/active-directory/develop/tutorial-v2-react
+   https://github.com/AzureAD/microsoft-authentication-library-for-js/blob/dev/lib/msal-node/docs/initialize-confidential-client-application.md
+   https://github.com/AzureAD/microsoft-authentication-library-for-js/blob/dev/lib/msal-common/docs/request.md
+Commands: \
+	npm install @emotion/styled
