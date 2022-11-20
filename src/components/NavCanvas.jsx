@@ -53,10 +53,11 @@ const NavCanvas = () => {
                     <LinkContainer to="/SimpleSearch">
                       <NavDropdown.Item href="#action/3.2">Orders</NavDropdown.Item>
                     </LinkContainer>
-
                     <NavDropdown.Item href="#action/3.2">History</NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                    <LinkContainer to="/OrderRegistration">
+                      <NavDropdown.Item href="#action/3.2">Order Registration</NavDropdown.Item>
+                    </LinkContainer>
                   </NavDropdown>
                   <NavDropdown title="Forms" id="basic-nav-dropdown" >
                     <LinkContainer to="/SimpleForm">

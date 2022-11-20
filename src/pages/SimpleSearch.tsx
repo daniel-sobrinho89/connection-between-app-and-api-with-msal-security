@@ -22,7 +22,7 @@ const SimpleSearch: React.FC<Props> = ({getToken}) => {
     useEffect(() => {
         async function fetchData() {
             setSearching(true);
-
+            
             getOrders(await getToken())
                 .then(response => checkResponse(response))
                 .catch((e) => {

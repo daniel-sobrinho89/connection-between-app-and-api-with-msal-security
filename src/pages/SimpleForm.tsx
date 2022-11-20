@@ -25,9 +25,13 @@ const SimpleForm: React.FC<Props> = ({getToken}) => {
     const [firstListSelectedValue, setFirstListSelectedValue] = useState<string | null>('');
     const [secondListSelectedValue, setSecondListSelectedValue] = useState<string | null>('');
     const [thirdListSelectedValue, setThirdListSelectedValue] = useState<string | null>('');
+    const [parameterId, setParameterId] = useState('');
+    const [parameterUrl, setParameterUrl] = useState('');
+    const [hasTracking, setHasTracking] = useState(false);
     const validateFirstListStatus: boolean | null = firstList.length === 0;
     const validateSecondListStatus: boolean | null = secondList.length === 0;
     const validateThirdListStatus: boolean | null = thirdList.length === 0;
+    const validateButtonStatus = () => firstListSelectedValue === '' || parameterId === '' || parameterUrl === ''; // TODO!! firstListSelectedValue === ''
 
     useEffect(() => {
         requestParameters();
@@ -120,7 +124,7 @@ const SimpleForm: React.FC<Props> = ({getToken}) => {
     }
 
     function handleSubmit(event: React.SyntheticEvent<HTMLFormElement>) {
-        alert(firstListSelectedValue + ' - ' + secondListSelectedValue + ' - ' + thirdListSelectedValue);
+        alert(firstListSelectedValue + ' - ' + secondListSelectedValue + ' - ' + thirdListSelectedValue + ' - ' + hasTracking + ' - ' + parameterId + ' - ' + parameterUrl);
         event.preventDefault();
     }
 
@@ -199,6 +203,8 @@ const SimpleForm: React.FC<Props> = ({getToken}) => {
                                             type="switch"
                                             id="hasTracking"
                                             label="Has Tracking"
+                                            checked={hasTracking}
+                                            onChange={(event) => setHasTracking(event.target.checked)}
                                         />
                                     </div>
                                 </div>
@@ -214,6 +220,8 @@ const SimpleForm: React.FC<Props> = ({getToken}) => {
                                                 placeholder="ID"
                                                 aria-label="ID"
                                                 aria-describedby="parameter"
+                                                value={parameterId}
+                                                onChange={(event) => setParameterId(event.target.value)}
                                             />
                                         </InputGroup>
                                     </div>
@@ -230,6 +238,8 @@ const SimpleForm: React.FC<Props> = ({getToken}) => {
                                                 placeholder="URL"
                                                 aria-label="URL"
                                                 aria-describedby="url"
+                                                value={parameterUrl}
+                                                onChange={(event) => setParameterUrl(event.target.value)}
                                             />
                                         </InputGroup>
                                     </div>
@@ -238,7 +248,11 @@ const SimpleForm: React.FC<Props> = ({getToken}) => {
                         </div>
 
                         <blockquote className="blockquote mt-4 mb-0">
-                                <Button variant="primary" type="submit">
+                                <Button 
+                                    type="submit" 
+                                    variant="primary"
+                                    disabled={validateButtonStatus()}
+                                >
                                     Submit Form
                                 </Button>
                         </blockquote>

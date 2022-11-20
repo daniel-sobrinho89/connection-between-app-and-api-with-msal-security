@@ -2,6 +2,7 @@ import React from "react";
 import { PageLayout } from "./components/PageLayout";
 import { AuthenticatedTemplate, UnauthenticatedTemplate } from "@azure/msal-react";
 import { useMsal } from "@azure/msal-react";
+import OrderRegistration from "./pages/OrderRegistration";
 import SimpleForm from "./pages/SimpleForm";
 import SimpleSearch from "./pages/SimpleSearch";
 import NavCanvas from "./components/NavCanvas";
@@ -35,6 +36,7 @@ function App() {
         <div className="container mt-5">
           <Routes>
             <Route exact path="/" element={<Home />} />
+            <Route exact path="OrderRegistration" element={<OrderRegistration getToken={getApiToken} />} />
             <Route exact path="SimpleForm" element={<SimpleForm getToken={getApiToken} />} />
             <Route exact path="SimpleSearch" element={<SimpleSearch getToken={getApiToken} />} />
           </Routes>

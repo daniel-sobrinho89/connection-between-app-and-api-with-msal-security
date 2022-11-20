@@ -2,7 +2,7 @@
 
 This project uses some libraries to improve your experience.
 
-### DatePicker
+### Configure DatePicker
 
 Url: \
     https://reactdatepicker.com/ \
@@ -10,28 +10,28 @@ Commands:
     npm install react-datepicker --save \
     npm i --save-dev @types/react-datepicker 
 
-### Bootstrap
+### Configure Bootstrap
 
 Url: \
     https://react-bootstrap.github.io/getting-started/introduction/ \
 Commands: \
    npm install react-bootstrap bootstrap
 
-### DataGrid
+### Configure DataGrid
 
 Url: \
    https://mui.com/pt/x/react-data-grid/getting-started/ \
 Commands: \
 	npm install @mui/x-data-grid
 
-### Select
+### Configure Select
 
 Url: \
    https://react-select.com/home#getting-started \
 Commands: \
 	npm i --save react-select
 
-### Azure MSAL
+### Configure Azure MSAL
 
 Url: \
    https://docs.microsoft.com/pt-br/azure/active-directory/develop/tutorial-v2-react \
